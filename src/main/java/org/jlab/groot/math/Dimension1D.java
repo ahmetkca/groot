@@ -50,7 +50,7 @@ public class Dimension1D implements Cloneable{
     }
     
     public Dimension1D clone() throws CloneNotSupportedException{
-    	return (Dimension1D) super.clone();
+        return (Dimension1D) super.clone();
     }
     public void copy(Dimension1D dim){
         this.setMinMax(dim.getMin(), dim.getMax());
