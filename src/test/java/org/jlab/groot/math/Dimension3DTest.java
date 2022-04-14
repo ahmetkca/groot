@@ -25,7 +25,7 @@ class Dimension3DTest {
 
 
     @Test
-    public void test_set() {
+    public void test_set_func_of_Dimension3d() {
         List<Dimension3D> dim3ds = new ArrayList<>();
 
         try {

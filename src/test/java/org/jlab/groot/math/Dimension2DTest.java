@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class Dimension2DTest {
 
     @Test
-    public void test_grow()
+    public void test_grow_of_Dimension2D()
     {
         Dimension2D dimension2D_1 = new Dimension2D();
         dimension2D_1.set(-35, -20, 15, 30);
